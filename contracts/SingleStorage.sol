@@ -1,9 +1,9 @@
 pragma solidity ^0.8.0;
 
-contract MyContract{
+contract SingleStorage {
     string value;
     
-    constructor() public {
+    constructor() {
         value = "Myvalue";
     }
     

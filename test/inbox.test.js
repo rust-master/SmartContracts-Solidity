@@ -13,15 +13,18 @@ class Car {
   }
 }
 
+beforeEach(() => {
+  console.log("Before each");
+  const car = new Car();
+});
+
 // write mocha test
 describe("Car", () => {
   it("can park", () => {
-    const car = new Car();
     assert.equal(car.park(), "Parked");
   });
 
   it("can drive", () => {
-      const car = new Car();
       assert.equal(car.drive(), "Driving");
   });
 });

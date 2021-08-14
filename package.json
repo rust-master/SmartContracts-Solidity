@@ -3,5 +3,9 @@
     "ganache-cli": "^6.12.2",
     "truffle": "^5.4.1",
     "web3": "^1.4.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
   }
 }

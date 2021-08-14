@@ -3,11 +3,11 @@ const ganache = require('ganache-cli');
 const Web3 = require('web3');
 const web3 = new Web3(ganache.provider());
 
-beforeEach(() => {
-    web3.eth.getAccounts()
-    .then((accounts) => {
-        console.log('Accounts:', accounts);
-    });
+let accounts;
+
+beforeEach(async () => {
+  accounts = await web3.eth.getAccounts();
+  console.log(accounts);
 });
 
 describe('Inbox', () => {

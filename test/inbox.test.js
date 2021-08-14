@@ -13,9 +13,11 @@ class Car {
   }
 }
 
+let car;
+
 beforeEach(() => {
   console.log("Before each");
-  const car = new Car();
+  car = new Car();
 });
 
 // write mocha test

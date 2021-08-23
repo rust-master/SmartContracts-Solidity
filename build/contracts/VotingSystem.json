@@ -1,0 +1,111 @@
+{
+  "contractName": "VotingSystem",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Voting.sol\":\"VotingSystem\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Voting.sol\":{\"keccak256\":\"0x0ef1e6ce668fafb6c49bb74e6f4f780386fd576dca137bbd718adc3f83aaf5bd\",\"urls\":[\"bzz-raw://b7c80ffc63e860bd9504dc2798af446bcbf9fd0810769f747d4829ee9c3b07cc\",\"dweb:/ipfs/QmZ8e3Hs9tk8rUN7UpZuP9CRZNVYB6Z6qC8eGqi3xGBaFc\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220a75234fb3b98bf01a8e05c94f73f42b6e3b6345901527ae90016b0664bb32ead64736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220a75234fb3b98bf01a8e05c94f73f42b6e3b6345901527ae90016b0664bb32ead64736f6c63430008000033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "63:26:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "63:26:1:-:0;;;;;",
+  "source": "pragma solidity ^0.8.0;\n\n// write voting system smart contract\ncontract VotingSystem {\n\n}",
+  "sourcePath": "/home/zaryab/VSCodeProjects/SmartContracts-Solidity/contracts/Voting.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Voting.sol",
+    "exportedSymbols": {
+      "VotingSystem": [
+        51
+      ]
+    },
+    "id": 52,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 50,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 51,
+        "linearizedBaseContracts": [
+          51
+        ],
+        "name": "VotingSystem",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 52,
+        "src": "63:26:1"
+      }
+    ],
+    "src": "0:89:1"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Voting.sol",
+    "exportedSymbols": {
+      "VotingSystem": [
+        51
+      ]
+    },
+    "id": 52,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 50,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 51,
+        "linearizedBaseContracts": [
+          51
+        ],
+        "name": "VotingSystem",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 52,
+        "src": "63:26:1"
+      }
+    ],
+    "src": "0:89:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-08-23T05:46:56.210Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
